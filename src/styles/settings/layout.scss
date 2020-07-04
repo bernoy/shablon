@@ -1,0 +1,343 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+// обнуление стилей allo
+
+.tab .content.description-content {
+  padding-right: 0px !important;
+}
+.tab .content {
+  padding: 0px !important;
+}
+
+.l-container {
+  max-width: 1198px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+//
+
+.l-section {
+  width: 100%;
+  display: flex;
+  @include tablets {
+    max-height: none;
+    height: auto;
+  }
+}
+
+.l-color-background-one {
+  background-color: #020002;
+}
+
+.l-color-background-two {
+  background-color: #000;
+}
+
+.l-color-background-three {
+  background-color: #ffc4c0;
+}
+
+.l-color-background-four {
+  background-color: #020202;
+}
+
+.l-color-background-five {
+  background-color: #ebebeb;
+}
+
+.l-color-background-six {
+  background: linear-gradient(180deg, rgb(241, 251, 253) 25%, rgb(255, 255, 255) 44%);
+}
+
+.l-color-background-seven {
+  background-color: #f1fbfd;
+}
+
+.l-color-background-eight {
+  background-color: #dde8fb;
+}
+
+.l-color-background-ten {
+  background-color: #523a1e;
+}
+
+.main-color-custom {
+  color: #ffdd11;
+}
+
+.l-half {
+  width: 50%;
+
+  @include tablets {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+.logo-title-wrapper {
+  // обертка для лого и h2 заголовка
+  display: flex;
+  align-items: center;
+  padding-top: 8.35%;
+  padding-left: 8.35%;
+
+  @include tablets {
+    justify-content: center;
+    padding-left: 8.35%;
+    padding-right: 8.35%;
+  }
+  @include phones {
+    flex-direction: column;
+  }
+}
+
+.l-logo {
+  margin-right: 30px;
+}
+
+.l-main-title {
+  font-size: 34px !important;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+
+  @include tablets {
+    text-align: center;
+    padding-bottom: 2.61%;
+    padding-top: 2.61%;
+    flex: 1;
+  }
+
+  @include phones {
+    flex: 0;
+    font-size: 28px !important;
+  }
+}
+
+.l-main-title-color {
+  // универсальный класс для остальных H2 заголовоков
+  color: #fff !important;
+}
+
+.l-description {
+  box-sizing: border-box;
+  @include col-center;
+  padding: 0 8.35%;
+  height: 100%;
+  @include tablets {
+    text-align: center;
+  }
+}
+
+// классы списка
+
+.ul-center {
+  text-align: left;
+  list-style: disc;
+  color: #000;
+  padding: 0;
+  padding-left: 17px;
+  font-size: 16px !important;
+  @include tablets {
+    list-style: none;
+    text-align: center;
+    font-size: 14px !important;
+  }
+}
+
+.li-margin {
+  margin-bottom: 4px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.l-description-color {
+  color: #fff;
+}
+
+.l-description-intro {
+  height: 75%;
+}
+
+.l-title {
+  font-size: 28px !important;
+  padding: 0 !important;
+  margin: 0;
+  margin-bottom: 4.01% !important;
+  font-weight: normal;
+  line-height: 38px;
+  color: #000 !important;
+  width: 100%;
+  text-align: start;
+
+  @include tablets {
+    margin-top: 20px !important;
+    text-align: center;
+  }
+
+  @include phones {
+    font-size: 24px !important;
+  }
+}
+
+.l-title-h4 {
+  font-size: 22px !important;
+}
+
+.l-title-color {
+  color: #fff !important;
+}
+
+.l-title-gradient {
+  text-transform: uppercase;
+  background: linear-gradient(-225deg, #da0f23 20%, #56439d 41%, #2656ca 143%, #2656ca);
+  background: linear-gradient(-250deg, #da0f23 37%, #56439d 75%, #eabafd 245%, #2656ca);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.l-paragraph {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0;
+  margin: 0;
+  color: #000 !important;
+
+  @include tablets {
+    margin-bottom: 30px;
+  }
+
+  @include phones {
+    font-size: 14px;
+  }
+}
+
+.l-paragraph-color {
+  color: #fff !important;
+}
+
+.l-img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.l-img-padding {
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  @include tablets {
+    padding-top: 0;
+  }
+}
+
+.l-img-padding2 {
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.l-img-pb {
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+.l-img-pt {
+  box-sizing: border-box;
+  padding-top: 30px;
+  @include tablets {
+    padding-top: 0;
+  }
+}
+
+.l-img-witdh-fifty {
+  @include tablets {
+    width: 55%;
+  }
+}
+
+.l-img-witdh-fifty2 {
+  @include tablets {
+    width: 80%;
+  }
+}
+
+.l-img-witdh-ohf {
+  @include tablets {
+    max-width: none;
+    width: 130%;
+  }
+}
+
+.l-img-custom {
+  @include tablets {
+    margin-right: -22.1%;
+  }
+  @include phones {
+    margin-right: 0;
+  }
+}
+
+.l-img-witdh {
+  width: 50%;
+}
+
+.l-img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8.35%;
+}
+
+.l-center {
+  // класс для центровки картинки на half
+  @include center;
+  img {
+    @include tablets {
+      height: auto;
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.l-title-center {
+  text-align: center;
+  margin-top: 2.01% !important;
+  margin-bottom: 2.01% !important;
+}
+
+.l-paragraph-center {
+  text-align: center;
+  padding: 0 8.35%;
+  margin-bottom: 2.01%;
+}
+
+.l-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-relative {
+  position: relative;
+}
+
+.l-section-reverse {
+  @include tablets {
+    flex-direction: column-reverse;
+  }
+}
+
+.l-column {
+  @include tablets {
+    display: flex;
+    flex-direction: column;
+  }
+}

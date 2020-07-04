@@ -1,0 +1,441 @@
+<style>
+.tab .content.description-content {
+  padding-right: 0px !important; }
+
+.tab .content {
+  padding: 0px !important; }
+
+.l-container {
+  max-width: 1198px;
+  background-color: #fff;
+  overflow: hidden; }
+
+.l-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media screen and (max-width: 768px) {
+    .l-section {
+      max-height: none;
+      height: auto; } }
+
+.l-color-background-one {
+  background-color: #020002; }
+
+.l-color-background-two {
+  background-color: #000; }
+
+.l-color-background-three {
+  background-color: #ffc4c0; }
+
+.l-color-background-four {
+  background-color: #020202; }
+
+.l-color-background-five {
+  background-color: #ebebeb; }
+
+.l-color-background-six {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #f1fbfd), color-stop(44%, white));
+  background: linear-gradient(180deg, #f1fbfd 25%, white 44%); }
+
+.l-color-background-seven {
+  background-color: #f1fbfd; }
+
+.l-color-background-eight {
+  background-color: #dde8fb; }
+
+.l-color-background-ten {
+  background-color: #523a1e; }
+
+.main-color-custom {
+  color: #ffdd11; }
+
+.l-half {
+  width: 50%; }
+  @media screen and (max-width: 768px) {
+    .l-half {
+      width: 100%;
+      height: 50%; } }
+
+.logo-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 8.35%;
+  padding-left: 8.35%; }
+  @media screen and (max-width: 768px) {
+    .logo-title-wrapper {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-left: 8.35%;
+      padding-right: 8.35%; } }
+  @media screen and (max-width: 480px) {
+    .logo-title-wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+
+.l-logo {
+  margin-right: 30px; }
+
+.l-main-title {
+  font-size: 34px !important;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+  @media screen and (max-width: 768px) {
+    .l-main-title {
+      text-align: center;
+      padding-bottom: 2.61%;
+      padding-top: 2.61%;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1; } }
+  @media screen and (max-width: 480px) {
+    .l-main-title {
+      -webkit-box-flex: 0;
+      -ms-flex: 0;
+      flex: 0;
+      font-size: 28px !important; } }
+
+.l-main-title-color {
+  color: #fff !important; }
+
+.l-description {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 8.35%;
+  height: 100%; }
+  @media screen and (max-width: 768px) {
+    .l-description {
+      text-align: center; } }
+
+.ul-center {
+  text-align: left;
+  list-style: disc;
+  color: #000;
+  padding: 0;
+  padding-left: 17px;
+  font-size: 16px !important; }
+  @media screen and (max-width: 768px) {
+    .ul-center {
+      list-style: none;
+      text-align: center;
+      font-size: 14px !important; } }
+
+.li-margin {
+  margin-bottom: 4px; }
+  .li-margin:last-child {
+    margin-bottom: 0; }
+
+.l-description-color {
+  color: #fff; }
+
+.l-description-intro {
+  height: 75%; }
+
+.l-title {
+  font-size: 28px !important;
+  padding: 0 !important;
+  margin: 0;
+  margin-bottom: 4.01% !important;
+  font-weight: normal;
+  line-height: 38px;
+  color: #000 !important;
+  width: 100%;
+  text-align: start; }
+  @media screen and (max-width: 768px) {
+    .l-title {
+      margin-top: 20px !important;
+      text-align: center; } }
+  @media screen and (max-width: 480px) {
+    .l-title {
+      font-size: 24px !important; } }
+
+.l-title-h4 {
+  font-size: 22px !important; }
+
+.l-title-color {
+  color: #fff !important; }
+
+.l-title-gradient {
+  text-transform: uppercase;
+  background: linear-gradient(-225deg, #da0f23 20%, #56439d 41%, #2656ca 143%, #2656ca);
+  background: linear-gradient(-250deg, #da0f23 37%, #56439d 75%, #eabafd 245%, #2656ca);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.l-paragraph {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0;
+  margin: 0;
+  color: #000 !important; }
+  @media screen and (max-width: 768px) {
+    .l-paragraph {
+      margin-bottom: 30px; } }
+  @media screen and (max-width: 480px) {
+    .l-paragraph {
+      font-size: 14px; } }
+
+.l-paragraph-color {
+  color: #fff !important; }
+
+.l-img {
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+.l-img-padding {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  padding-top: 30px; }
+  @media screen and (max-width: 768px) {
+    .l-img-padding {
+      padding-top: 0; } }
+
+.l-img-padding2 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  padding-top: 30px; }
+
+.l-img-pb {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 30px; }
+
+.l-img-pt {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 30px; }
+  @media screen and (max-width: 768px) {
+    .l-img-pt {
+      padding-top: 0; } }
+
+@media screen and (max-width: 768px) {
+  .l-img-witdh-fifty {
+    width: 55%; } }
+
+@media screen and (max-width: 768px) {
+  .l-img-witdh-fifty2 {
+    width: 80%; } }
+
+@media screen and (max-width: 768px) {
+  .l-img-witdh-ohf {
+    max-width: none;
+    width: 130%; } }
+
+@media screen and (max-width: 768px) {
+  .l-img-custom {
+    margin-right: -22.1%; } }
+
+@media screen and (max-width: 480px) {
+  .l-img-custom {
+    margin-right: 0; } }
+
+.l-img-witdh {
+  width: 50%; }
+
+.l-img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 8.35%; }
+
+.l-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  @media screen and (max-width: 768px) {
+    .l-center img {
+      height: auto; } }
+
+.text-center {
+  text-align: center; }
+
+.l-title-center {
+  text-align: center;
+  margin-top: 2.01% !important;
+  margin-bottom: 2.01% !important; }
+
+.l-paragraph-center {
+  text-align: center;
+  padding: 0 8.35%;
+  margin-bottom: 2.01%; }
+
+.l-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.l-relative {
+  position: relative; }
+
+@media screen and (max-width: 768px) {
+  .l-section-reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; } }
+
+@media screen and (max-width: 768px) {
+  .l-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
+</style>
+  <div class="l-container">
+    <div class="l-section l-column l-color-background-one">
+      <div class="l-half">
+        <div class="l-description">
+          <h2 class="l-title l-title-color text-center">Xiaomi <b>Mi 9T Pro</b></h2>
+          <h4 class="l-title l-title-h4 l-title-color text-center">Qualcomm® Snapdragon™ 855.<br> 48 Мп Тройная камера.
+          </h4>
+        </div>
+      </div>
+      <div class="l-half l-center">
+        <img class="l-img l-img-padding l-img-witdh-fifty" src="./icons/1.png" alt="">
+      </div>
+    </div>
+    <div class="l-section l-flex l-center">
+      <img class="l-img l-img-witdh-ohf" src="./icons/2.png" alt="">
+    </div>
+    <div class="l-section l-flex l-center l-color-background-two">
+      <h3 class="l-title l-title-center l-title-color l-title-gradient">ВАШ ЛУЧШИЙ ВЫБОР</h3>
+      <p class="l-paragraph l-paragraph-center l-paragraph-color">Смартфон Xiaomi Mi 9T Pro обладает выдающимися
+        рабочими характеристиками
+        и заслуживает самого пристального внимания. Его большой безрамочный AMOLED дисплей воспроизводит видео в
+        превосходном качестве. Тройная основная камера обеспечивает профессиональное качество съемки, выдвижная
+        фронтальная камера 20 Мп с искусственным интеллектом делает прекрасные одиночные и групповые селфи. Мощный
+        современный процессор Qualcomm Snapdragon 855 позволяет использовать смартфон для выполнения задач любой
+        сложности.
+      </p>
+      <img class="l-img" src="./icons/3.png" alt="">
+    </div>
+    <div class="l-section l-flex l-center l-color-background-two">
+      <h3 class="l-title l-title-center l-title-gradient">ВПЕЧАТЛЯЮЩАЯ ПРОИЗВОДИТЕЛЬНОСТЬ</h3>
+      <p class="l-paragraph l-paragraph-center l-paragraph-color">Флагманский процессор Qualcomm Snapdragon 855
+        обеспечивает плавную и
+        слаженную работу всех приложений и программ. Процессор отличается от своего предшественника увеличением
+        производительности ядра на 45 % и приростом быстродействия в играх на 25 %. Системы, основанные на искусственном
+        интеллекте, работают в три раза быстрее, выполняя несколько сложных задач одновременно. Для динамичной игры
+        процессор оснащен двойным турборежимом (MI Turbo и GameTurbo), который оптимизирует все игровые процессы и
+        существенно улучшает управляемость игрой. Восьмислойный графитовый радиатор увеличивает теплорассеивание на 650
+        %, поэтому смартфон может долго работать на максимальной производительности.
+      </p>
+      <img class="l-img" src="./icons/4.png" alt="">
+    </div>
+    <div class="l-section l-flex l-center l-color-background-two">
+      <h3 class="l-title l-title-center l-title-gradient">ЕМКИЙ АККУМУЛЯТОР. СУПЕРБЫСТРАЯ ЗАРЯДКА</h3>
+      <p class="l-paragraph l-paragraph-center l-paragraph-color">Емкости батареи в 4000 мАч хватит на много часов
+        работы смартфона в
+        интенсивном режиме. Если же заряд иссяк, быстро его пополнить поможет скоростная зарядка QC4+ мощностью 27 Вт.
+        Всего 30 минут подзарядки, и заряд восстановлен на 58 %.
+      </p>
+      <img class="l-img l-img-witdh-ohf" src="./icons/5.png" alt="">
+    </div>
+    <div class="l-section l-flex l-center l-color-background-two">
+      <h3 class="l-title l-title-center l-title-gradient">ПРЕВОСХОДНЫЕ ФОТОГРАФИИ</h3>
+      <p class="l-paragraph l-paragraph-center l-paragraph-color">Основная камера Xiaomi Mi 9T Pro состоит из трех
+        блоков, что позволяет
+        ей мгновенно переключаться на нужное фокусное расстояние в зависимости от условий съемки. Камера оснащена
+        основным 48 Мп сенсором, длиннофокусным объективом 8 Мп и широкоугольным объективом 13 Мп.
+      </p>
+      <img class="l-img" src="./icons/6.png" alt="">
+    </div>
+    <div class="l-section l-flex l-center l-color-background-two">
+      <h3 class="l-title l-title-center l-title-gradient">ЗУМ И ШИРОКИЙ УГОЛ</h3>
+      <p class="l-paragraph l-paragraph-center l-paragraph-color">Используя 10 – кратный зум, вы сможете приблизить и
+        удачно запечатлеть даже удаленные объекты. При использовании широкоугольного объектива происходит автоматическая
+        коррекция параметров, исключающая деформацию объектов на фото.
+      </p>
+      <img class="l-img" src="./icons/7.gif" alt="">
+    </div>
+    <div class="l-section l-flex l-center l-color-background-two">
+      <h3 class="l-title l-title-center l-title-gradient">СОХРАНИТЕ КРАСОТУ НОЧИ</h3>
+      <p class="l-paragraph l-paragraph-center l-paragraph-color">Xiaomi Mi 9T Pro продемонстрирует, что ночь полна
+        ярких завораживающих событий. Фото, полученные в ночное время, поражают своей четкостью, глубиной,
+        насыщенностью. Все это возможно благодаря большому пикселю 1.6 мкм и светочувствительному элементу ½”. Снимайте
+        на ночных вечеринках и концертах, чтобы сохранить атмосферу и магию событий.
+      </p>
+      <img class="l-img l-img-witdh-ohf" src="./icons/8.png" alt="">
+    </div>
+    <div class="l-section l-flex l-center l-color-background-two">
+      <img class="l-img l-img-padding2" src="./icons/9.gif" alt="">
+    </div>
+    <div class="l-section l-flex l-center l-color-background-two">
+      <h3 class="l-title l-title-center l-title-gradient">ВАШИ ИЗУМИТЕЛЬНЫЕ СЕЛФИ</h3>
+      <p class="l-paragraph l-paragraph-center l-paragraph-color">Селфи камера 20 Мп имеет выдвижную конструкцию, она
+        оснащена специальной лампой, захватывающей максимум цветов и оттенков. Камера превосходно справляется с
+        групповыми фото без использования селфи – палки. Технология бьютификации на базе искусственного интеллекта
+        подчеркивает вашу естественную привлекательность, делает более выразительным взгляд, выравнивает тон кожи,
+        корректирует овал лица. Каждый ваш селфи – кадр заслуживает звания лучшего.
+      </p>
+      <img class="l-img" src="./icons/10.png" alt="">
+    </div>
+    <div class="l-section l-flex l-center l-color-background-three">
+      <h3 class="l-title l-title-center l-title-gradient">БЕЗРАМОЧНЫЙ ДИСПЛЕЙ</h3>
+      <p class="l-paragraph l-paragraph-center">AMOLED дисплей Xiaomi Mi 9T Pro диагональю 6.39 дюймов заключен в
+        минимальные рамки. За счет выдвижной конструкции фронтальной камеры площадь экрана увеличилась до невероятных
+        91.9 % площади фронтальной поверхности. Технология Антиблик 2.0 позволяет с комфортом смотреть видео даже на
+        ярком солнце. Защита от мерцания на аппаратном уровне делает картинку комфортной для восприятия при низкой
+        яркости экрана. Технология VDE снижает вредное для глаз синее излучение. В нижней части под дисплеем размещен
+        высокоточный сканер отпечатков пальцев, которому потребуются доли секунды, чтобы разблокировать доступ владельцу
+        смартфона.
+      </p>
+      <img class="l-img l-img-pb" src="./icons/11.png" alt="">
+    </div>
+    <div class="l-section l-flex l-column l-color-background-two">
+      <h3 class="l-title l-title-center l-title-gradient">ТЕХНОЛОГИЯ NFC И ТОЧНАЯ НАВИГАЦИЯ</h3>
+      <p class="l-paragraph l-paragraph-center l-paragraph-color">Модуль NFC позволит вам оплатить покупку прикосновением смартфона к
+        терминалу, открыть дверь или расплатиться за проезд в современном общественном транспорте. Двухчастотный GPS
+        использует частоты L1 и L5, чтобы быстро и точно определить ваше местоположение.
+      </p>
+      <div class="l-img-wrapper"> 
+        <img class="l-img l-img-witdh" src="./icons/12.gif" alt="">
+        <img class="l-img l-img-witdh" src="./icons/13.png" alt="">
+    </div>
+    </div>
+  </div>
